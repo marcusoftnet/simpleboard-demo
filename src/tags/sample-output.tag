@@ -1,6 +1,65 @@
 <sample-output>
-  <h1>Hello again from RiotJS!</h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
+  <ul>
+    <li>
+      <a href="#">
+        <h2>Title #1</h2>
+        <p>Text Content #1</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #2</h2>
+        <p>Text Content #2</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #3</h2>
+        <p>Text Content #3</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #4</h2>
+        <p>Text Content #4</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #5</h2>
+        <p>Text Content #5</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #6</h2>
+        <p>Text Content #6</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #2</h2>
+        <p>Text Content #2</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #7</h2>
+        <p>Text Content #7</p>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <h2>Title #8</h2>
+        <p>Text Content #8</p>
+      </a>
+    </li>
+  </ul>
+
+  <scrip>
+    this.on('mount', () =>{
+      $("li").draggable();
+    })
+  </scrip>
+
 </sample-output>

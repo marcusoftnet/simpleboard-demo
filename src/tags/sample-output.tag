@@ -56,10 +56,10 @@
     </li>
   </ul>
 
-  <scrip>
+  <script>
     this.on('mount', () =>{
       $("li").draggable();
     })
-  </scrip>
+  </script>
 
 </sample-output>
